@@ -1,0 +1,308 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  padding: 15px 0;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px #0A101A;
+  background-color:#121B2A;
+}
+.wrapper{
+ 
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  /* border: 1px solid red; */ 
+}
+.logo{
+  width: 15%;
+  float: left;
+}
+.logo img{
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+.menu{
+
+  margin-top: 20px;
+  transition: 3s;
+  width:60%;
+  float: right;
+}
+ul {
+
+  font-size: 15px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float:right;
+  overflow: hidden;
+  /* background-color:#06588A; */
+}
+ul li:last-child a{
+  padding-right: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display:block;
+  
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color:#0176B8;
+  
+  } 
+/* hover end */
+/* banar start*/
+.banar{
+  padding: 10% 0 5% 0;
+  width:100%;
+  background-image: url(../img/banar1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banar_1{
+   padding: 10% 0 0 0;
+   width: 50%;
+}
+.banar h1{
+ font-size:40px;
+ color: white;
+  margin:0; 
+}
+.banar h2{
+  font-size:40px;
+ color:#0075B9;
+ margin:0; 
+}
+.banar p{
+  font-size: 20px;
+  color: white;
+}
+
+/* banar end */
+/* button star */
+button{
+  font-size: 18px;
+  border-radius: 5px;
+  color:#595959;
+  padding: 10px ;
+  margin-bottom:50px;
+
+  }
+/* button end */
+/* service start */
+.service{
+  padding-top: 60px;
+  padding-bottom: 50px;
+  background-color: #121B2C;
+}
+.single{
+  width: 30%;
+  float: left;
+  /* border:1px solid white; */
+  padding: 15px 10px 25px 0;
+  border-right:1px solid #1A2430;
+}
+.single:last-child {
+  border-right: none;
+} 
+
+.top{
+  /* overflow: hidden; */
+}
+.t-img{
+  width: 20%;
+  float: left;
+  
+}
+.t-img img{
+  padding: 0 0 0 13px;
+  float: left;
+}
+.t-text{
+  width: 70%;
+  margin-top:20px;
+  float: left;
+  }
+
+.h2{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin:0 ;
+    padding: 0 0 0 30px;
+   
+}
+.t-text h3{
+  margin-top: 30px;
+  color: white;
+  color: #0078BF;
+}
+.am{
+  font-size: 15px;
+  padding: 25px 0 0 29px;
+  float: left;
+  color: white;
+
+}
+h2{
+  padding: 10px 0 0 0;
+  float: left; 
+}
+.bottom{
+  /* border: 1px solid red; */
+} 
+.bottom p{
+  padding: 0 30px 10px 30px;
+  font-family: sans-serif;
+  color: white;
+  margin: 10px 0 0 0;
+  font-size:15px;
+  padding-top: 90px;
+  line-height: 20px;
+} 
+/* service end */
+/* about start */
+.about{
+  color:white;
+  background-color: #040811;
+  margin-bottom: 0;
+  padding: 0;
+  float: left;
+  width: 100%;
+}
+h4{
+  margin-bottom: 0;
+  float: left;
+  font-size: 20px;
+}
+ .xi{
+  font-size: 17px;
+  line-height:20px;
+  width: 30%;
+
+  padding: 10px 20px 0px 20px;
+  margin:0;
+ float: left;
+}
+ .xi p{
+  padding: 0;
+  line-height: 20px;
+  overflow: hidden;
+   float: left;  
+ /*  margin-bottom: 0; */
+}
+
+.not{
+  font-size: 20px;
+  float: left;
+}
+.not p{
+padding: 0 0 25px 0;
+margin:0px;
+} 
+}
+.goto{
+  padding: 60px 0 0 0;
+  width: 20%;
+  float: left;
+  }
+.data img{
+  padding:30px 0 0 0;
+float: left;
+}
+/* .no{
+   margin-bottom: 0;
+ padding: 0 ; 
+font-size: 25px;
+float: left;
+ width: 20%;
+
+}
+.no h6{
+  color:#0078BF;
+  margin-bottom: 0;
+}
+
+ 
+.yes img{
+  float: left;
+}  */
+.footer{
+   /* float: left;  */
+  background-color:#121B2C;
+  
+  width: 100%;
+}
+.bar{
+  padding: 0 0 0 0;
+ margin-top: 20px;
+ /*  transition: 3s; */
+  width:62%;
+  float: left;
+}
+ul {
+
+  font-size: 8px;
+  list-style-type: none;
+  margin: 0;
+  
+  float:right;  
+  overflow: hidden; 
+  /*  background-color:#06588A; */
+}
+/* ul li:first-child a{
+  padding-left: 0;
+} */
+/*  ul li:last-child a{
+ padding-right: 0;
+} */
+
+li {
+   float:left; 
+}
+
+li a {
+  display:block;
+  
+  color: white;
+   /* text-align:right; */
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color:#0176B8;
+  
+  } 
+  .bar p{
+    padding: 0 0 0 17px;
+  }
+  
+  .water{
+    float: left;
+    width: 10%;
+  }
+  .water img{
+    padding:20px 0px 0 40px;
+ } 
+  .mark{
+    width: 10%;
+   float: left;
+  
+ }
+ .mark img{
+   padding: 20px 0 0 120px;
+ } 
